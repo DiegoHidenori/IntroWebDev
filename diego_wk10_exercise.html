@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Week 9 Exercise</title>
+  <meta name="description" content="Week 9 Exercise">
+  <meta name="keywords" content="Week 9 Exercise"> <!-- provides search engines a page's
+content -->
+  <meta name="author" content="Diego Tsukayama">
+  <link href="../../../../assets/img/favicon.ico" rel="shortcut icon">
+  <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+<fieldset>
+  <legend id="mainLegend"><strong>Application Form</strong></legend>
+  <div>
+    <form action="" id="edge">
+      <div id="enterName" class="labels">
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name" placeholder="Your Name" required>
+      </div>
+      <div id="enterSubject" class="labels">
+        <label for="subject">Subject</label>
+        <input type="subject" name="subject" id="subject" placeholder="Enter Subject" required>
+      </div>
+      <div id="enterEmail" class="labels">
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" placeholder="Enter Email Here" required>
+      </div>
+      <div>
+        <label for="message" class="labels">Message</label>
+        <textarea name="message" id="message" cols="50" rows="5"></textarea>
+      </div>
+      <div id="enterDate">
+        <label for="date">Date</label>
+        <input type="date" id="date" min="2023-01-01">
+      </div>
+      <div id="enterAge">
+        <label for="age">Age</label>
+        <input type="number" id="age" min="12" max="150" required>
+      </div>
+      <div id="enterPassword">
+        <label for="password">Password</label>
+        <input type="password" id="password" placeholder="Enter Password" required>
+      </div>
+      <div>
+        <fieldset>
+          <legend>Favorite Foods</legend>
+          <div>
+            <label for="pizza">Pizza</label>
+            <input type="checkbox" id="pizza">
+            <br>
+            <label for="hamburger">Hamburger</label>
+            <input type="checkbox" id="hamburger">
+          </div>
+        </fieldset>
+      </div>
+      <div>
+        <fieldset>
+          <legend>Favorite Sports</legend>
+          <div>
+            <label for="soccer">Soccer</label>
+            <input type="radio" id="soccer">
+            <br>
+            <label for="volleyball">Volleyball</label>
+            <input type="radio" id="volleyball">
+          </div>
+        </fieldset>
+      </div>
+      <div>
+        <label for="eyecolor">Eye Color</label>
+        <select name="eyecolor" id="eyecolor">
+          <option value="hazel">Hazel</option>
+          <option value="brown">Brown</option>
+        </select>
+      </div>
+      <div>
+        <label for="file">File</label>
+        <input type="file" id="file">
+      </div>
+      <div>
+        <label for="color">Color</label>
+        <input type="color" id="color" name="color">
+      </div>
+      <div>
+        <button class="btn_1" type="reset">Reset</button>
+        <button class="btn_2" type="submit">Send Message</button>
+      </div>
+    </form>
+  </div>
+</fieldset>
+<footer id="footer">
+  <p>Copyright &copy; Diego Tsukayama 2023</p>
+</footer>
+<script src="https://my.gblearn.com/js/loadscript.js"></script>
+</body>
+</html>
