@@ -1,0 +1,119 @@
+*{
+    font-family: "Times New Roman", Garamond, "Trebuchet MS", sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: seashell;
+}
+#header1{
+    padding: 10px;
+    margin: 3px;
+    height: 7rem;
+}
+header{
+    background-image: url("../img/gbccasaloma3.jpg");
+    background-size: cover;
+}
+h1{
+    color: red;
+    font-size: 55px;
+    margin: 5px;
+    padding: 5px;
+}
+h2{
+    color: red;
+    font-size: 50px;
+    margin: 5px;
+    padding: 5px;
+}
+#gbc_logo{
+    position: relative;
+    float: right;
+    height: 100%;
+    width: 8rem;
+    border: 5px ridge orange;
+}
+.navbar{
+    position: sticky;
+    top: 0;
+    background-color: red;
+    width: 100%;
+    padding: 20px;
+    border: 10px double orange;
+}
+.navbar a{
+    font-size: 25px;
+    text-decoration: none;
+    color: orange;
+}
+a:hover,.applyNow:hover{
+    color: green;
+    text-decoration: underline;
+}
+a:visited,.applyNow:visited{
+    text-decoration: none;
+}
+a:active,.applyNow:active{
+    color: cyan;
+}
+#welcome,#academics,#campus,#admissions{
+    margin: 10px;
+    padding: 10px;
+}
+#welcomeImage{
+    border: 3px groove purple;
+    padding: 3px;
+    background-color: black;
+    width: 60%;
+}
+#welcome h1, #academics h1, #campus h1, #admissions h1{
+    border-bottom: 3px dotted orange;
+}
+h3{
+    font-size: 30px;
+    padding: 5px;
+    margin: 5px;
+}
+#welcomeList, #academicsList{
+    margin: 15px;
+    padding: 10px;
+}
+p{
+    font-size: 20px;
+    margin: 10px;
+}
+.applyNow{
+    font-size: 20px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 30px;
+    border: 2px solid black;
+    box-shadow: 5px 5px 10px 2px coral;
+}
+
+.image1,.image2{
+    height: 250px;
+    width: 25%;
+}
+figure{
+    text-align: center;
+    padding: 10px;
+}
+#welcomeList li:nth-child(even),#academicsList li:nth-child(even){
+    background-color: orange;
+}
+footer{
+    margin: 5px;
+    padding: 5px;
+}
+#citing{
+    margin: 25px;
+}
+#admissions{
+    background-image: linear-gradient(to bottom right, linen, chocolate);
+}
+a[target="_blank"]{
+    border: 2px dashed orange;
+}
