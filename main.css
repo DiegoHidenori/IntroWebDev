@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: linen;
+    margin: 3px;
+}
+body tr:hover, #body tr td:hover{
+    background-color: purple;
+}
+table{
+    border: 2px solid black;
+    border-top: 5px solid orange;
+    width: 20em;
+    margin: auto;
+}
+thead td, tbody td, tfoot td{
+    padding: 3px;
+    border: 2px solid black;
+}
+table, thead td{
+    border-collapse: collapse;
+}
+#head, #body tr:nth-child(even), .row_footer{
+    background-color: coral;
+}
+#body tr:nth-child(odd){
+    background-color: lightblue;
+}
+#head tr td:nth-child(odd){
+    text-align: center;
+}
