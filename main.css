@@ -1,0 +1,11 @@
+*{
+    margin: 5px;
+    padding: 5px;
+}
+body{
+    background-color: linen;
+    border: 10px double chocolate;
+}
+.buttons{
+    border: 5px double chocolate;
+}
